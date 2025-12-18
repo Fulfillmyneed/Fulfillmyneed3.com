@@ -1,0 +1,141 @@
+{
+    "name": "FulfillME Marketplace",
+    "short_name": "FulfillME",
+    "description": "You Need It. You Price It. They Fulfill It. A simple, customer-first marketplace for Kenya and beyond.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#228B22",
+    "theme_color": "#228B22",
+    "icons": [
+        {
+            "src": "/icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshots/mobile-screenshot1.png",
+            "sizes": "720x1280",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Home screen showing category selection"
+        },
+        {
+            "src": "/screenshots/mobile-screenshot2.png",
+            "sizes": "720x1280",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Request posting form"
+        },
+        {
+            "src": "/screenshots/desktop-screenshot.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Desktop view showing all requests"
+        }
+    ],
+    "categories": ["business", "shopping", "social"],
+    "dir": "ltr",
+    "lang": "en-US",
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "Post a Need",
+            "short_name": "Post",
+            "description": "Post your need with budget and location",
+            "url": "/pages/post-need.html",
+            "icons": [
+                {
+                    "src": "/icons/shortcut-post.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Browse Needs",
+            "short_name": "Browse",
+            "description": "Browse available needs to fulfill",
+            "url": "/pages/browse.html",
+            "icons": [
+                {
+                    "src": "/icons/shortcut-browse.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "My Dashboard",
+            "short_name": "Dashboard",
+            "description": "View your posts and messages",
+            "url": "/pages/dashboard.html",
+            "icons": [
+                {
+                    "src": "/icons/shortcut-dashboard.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "scope": "/",
+    "id": "/",
+    "launch_handler": {
+        "client_mode": "focus-existing"
+    },
+    "handle_links": "preferred",
+    "edge_side_panel": {
+        "preferred_width": 400
+    },
+    "protocol_handlers": [
+        {
+            "protocol": "web+fulfillme",
+            "url": "/index.html?protocol=%s"
+        }
+    ]
+}
